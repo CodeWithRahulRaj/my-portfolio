@@ -20,6 +20,9 @@
 # production
 /build
 
+# claude code — personal overrides stay local
+.claude/settings.local.json
+
 # misc
 .DS_Store
 *.pem

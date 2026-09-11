@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Bash(npm run build)",
+      "Bash(npm run dev)",
+      "Bash(npm run lint)",
+      "Bash(npm run typecheck)",
+      "Bash(npm install)",
+      "Bash(npx next build)",
+      "Bash(npx next dev *)",
+      "Bash(npx tsc *)",
+      "Bash(npx eslint *)",
+      "Bash(swiftc *)",
+      "Bash(sips *)",
+      "Bash(curl -s *localhost*)",
+      "Bash(curl -sf *localhost*)",
+      "Bash(node --experimental-websocket .claude/skills/visual-qa/scripts/drive.mjs *)",
+      "Bash(.claude/skills/visual-qa/scripts/shoot.sh *)",
+      "Bash(./.claude/skills/figma-assets/scripts/extract_assets.sh)",
+      "Bash(git status *)",
+      "Bash(git diff *)",
+      "Bash(git log *)",
+      "Read",
+      "Edit(src/**)",
+      "Edit(public/**)",
+      "Edit(.claude/**)"
+    ],
+    "deny": [
+      "Bash(rm -rf /*)",
+      "Bash(git push *)",
+      "Read(./.env*)"
+    ]
+  }
+}

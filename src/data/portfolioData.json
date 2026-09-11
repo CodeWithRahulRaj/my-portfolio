@@ -1,0 +1,320 @@
+{
+  "seo": {
+    "title": "Samuel Chen | Full-Stack Engineer",
+    "description": "Portfolio of Samuel Chen, a Full-Stack Engineer who builds clean, scalable web applications with React, Next.js, Node.js, Go and cloud-native infrastructure.",
+    "keywords": [
+      "Samuel Chen",
+      "Full-Stack Engineer",
+      "React",
+      "Next.js",
+      "Node.js",
+      "Go",
+      "AWS",
+      "Kubernetes",
+      "Portfolio"
+    ],
+    "author": "Samuel Chen",
+    "siteUrl": "https://samuelchen.dev",
+    "ogImage": "/images/avatar.png",
+    "twitterHandle": "@samuelchen"
+  },
+  "navLinks": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Projects",
+      "href": "/projects"
+    },
+    {
+      "label": "Skills",
+      "href": "/skills"
+    },
+    {
+      "label": "Experience",
+      "href": "/experience"
+    }
+  ],
+  "navActions": {
+    "resume": {
+      "label": "Resume",
+      "href": "/resume.pdf"
+    },
+    "contact": {
+      "label": "Contact",
+      "href": "/contact"
+    }
+  },
+  "profile": {
+    "name": "Samuel Chen",
+    "role": "Full-Stack Engineer",
+    "eyebrow": "SAMUEL CHEN  |  FULL-STACK ENGINEER",
+    "headline": "I build clean, scalable web applications",
+    "ctaLabel": "View Projects",
+    "ctaHref": "/projects",
+    "portraitUrl": "/images/portrait.png",
+    "email": "samuel.chen@example.com",
+    "location": "San Francisco, CA"
+  },
+  "socials": [
+    {
+      "platform": "github",
+      "label": "GitHub",
+      "url": "https://github.com/samuelchen"
+    },
+    {
+      "platform": "linkedin",
+      "label": "LinkedIn",
+      "url": "https://linkedin.com/in/samuelchen"
+    },
+    {
+      "platform": "twitter",
+      "label": "Twitter",
+      "url": "https://twitter.com/samuelchen"
+    }
+  ],
+  "about": {
+    "title": "About Me",
+    "columns": [
+      [
+        "I am a full-stack engineer with 8+ years spent designing and scaling fault-tolerant web applications, event-driven services and high-performance interfaces for high-growth startups and enterprise teams.",
+        "I care about the whole path from a first sketch to a production dashboard: micro-interactions, performance budgets, database indices and high-availability topologies."
+      ],
+      [
+        "I have implemented containerised web applications, standardised design systems used across multiple squads, and zero-downtime deployment pipelines on AWS and Azure.",
+        "Currently open to senior full-stack and platform roles where clean architecture and measurable performance work matter."
+      ]
+    ],
+    "readMoreLabel": "Read More",
+    "readMoreHref": "/experience",
+    "quickLink": {
+      "title": "About Me",
+      "subtitle": "Experience, skills and impact",
+      "href": "#about"
+    }
+  },
+  "featuredProjects": [
+    {
+      "id": "project-alpha",
+      "title": "Project Alpha: AI-Powered Logistics Platform",
+      "problem": "Dispatch bottlenecks across 50,000+ daily deliveries caused driver delays and heavy idle-fuel waste.",
+      "solution": "Event-driven microservices with predictive AI routing and a sub-second live telemetry dashboard.",
+      "techStack": "React, Python, AWS, Docker, GraphQL",
+      "impact": "Route latency down 38%, fuel waste down 19%, $120k saved annually at 99.98% delivery reliability.",
+      "screenshots": {
+        "dark": "/images/project-alpha-dark.png",
+        "light": "/images/project-alpha-light.png"
+      },
+      "liveUrl": "https://example.com/project-alpha",
+      "repoUrl": "https://github.com/samuelchen/logistics-platform"
+    },
+    {
+      "id": "project-beta",
+      "title": "Project Beta: E-Commerce Microservices",
+      "problem": "A monolithic checkout cascaded failures during flash sales, pushing cart abandonment above 40%.",
+      "solution": "Distributed checkout services in Go and Node.js with Redis queueing, idempotency keys and automated failover.",
+      "techStack": "Next.js, Go, Redis, Kubernetes, Stripe",
+      "impact": "Zero downtime at 50k peak RPS, transaction latency under 80ms, checkout conversion up 26%.",
+      "screenshots": {
+        "dark": "/images/project-beta-dark.png",
+        "light": "/images/project-beta-light.png"
+      },
+      "liveUrl": "https://example.com/project-beta",
+      "repoUrl": "https://github.com/samuelchen/ecommerce-microservices"
+    },
+    {
+      "id": "project-gamma",
+      "title": "Project Gamma: Real-Time Collaboration Engine",
+      "problem": "Remote teams hit state desynchronisation and race conditions when editing complex flowcharts together.",
+      "solution": "A CRDT-based sync protocol over WebSockets, served from edge workers for sub-15ms regional updates.",
+      "techStack": "React, TypeScript, WebSockets, Redis, Cloudflare",
+      "impact": "Powers 100k+ monthly collaborative sessions globally with zero data loss and instant multi-cursor feedback.",
+      "screenshots": {
+        "dark": "/images/project-gamma-dark.png",
+        "light": "/images/project-gamma-light.png"
+      },
+      "liveUrl": "https://example.com/project-gamma",
+      "repoUrl": "https://github.com/samuelchen/collab-engine"
+    }
+  ],
+  "skillCategories": [
+    {
+      "category": "Frontend",
+      "skills": [
+        {
+          "name": "React",
+          "icon": "react"
+        },
+        {
+          "name": "Vue",
+          "icon": "vue"
+        },
+        {
+          "name": "Next.js",
+          "icon": "nextjs"
+        },
+        {
+          "name": "Redux",
+          "icon": "redux"
+        }
+      ]
+    },
+    {
+      "category": "Backend",
+      "skills": [
+        {
+          "name": "Node.js",
+          "icon": "nodejs"
+        },
+        {
+          "name": "Go",
+          "icon": "go"
+        },
+        {
+          "name": "Python",
+          "icon": "python"
+        },
+        {
+          "name": "Django",
+          "icon": "django"
+        }
+      ]
+    },
+    {
+      "category": "Cloud & DevOps",
+      "skills": [
+        {
+          "name": "AWS",
+          "icon": "aws"
+        },
+        {
+          "name": "Azure",
+          "icon": "azure"
+        },
+        {
+          "name": "Docker",
+          "icon": "docker"
+        },
+        {
+          "name": "Kubernetes, CI/CD",
+          "icon": "kubernetes"
+        }
+      ]
+    },
+    {
+      "category": "Tools",
+      "skills": [
+        {
+          "name": "Git",
+          "icon": "git"
+        },
+        {
+          "name": "Jira",
+          "icon": "jira"
+        },
+        {
+          "name": "Figma",
+          "icon": "figma"
+        },
+        {
+          "name": "Agile",
+          "icon": "agile"
+        }
+      ]
+    }
+  ],
+  "skillsStrip": [
+    {
+      "title": "Frontend",
+      "items": "React, Vue, Next.js, Redux"
+    },
+    {
+      "title": "Backend",
+      "items": "Node.js, Go, Python, Django"
+    },
+    {
+      "title": "Cloud & DevOps",
+      "items": "AWS, Azure, Docker, Kubernetes, CI/CD"
+    }
+  ],
+  "experiences": [
+    {
+      "id": "exp-1",
+      "company": "TechNova Systems",
+      "role": "Staff Software Engineer",
+      "period": "Jan 2022 - Present",
+      "logoInitials": "TN",
+      "logoTone": "gradient",
+      "achievements": [
+        "Led a team of 8 engineers on a fintech platform processing $250M+ in monthly transaction volume.",
+        "Reduced application load time by 42% through a micro-frontend migration across 1.2M monthly active users.",
+        "Implemented a new CI/CD pipeline that cut the deployment cycle from 3 days to 18 minutes.",
+        "Drove an indexing strategy that lowered 95th percentile query latency from 850ms to 45ms."
+      ],
+      "technologies": "Next.js, TypeScript, Node.js, Go, AWS, Kubernetes, PostgreSQL"
+    },
+    {
+      "id": "exp-2",
+      "company": "CloudScale Solutions",
+      "role": "Full-Stack Engineer",
+      "period": "Mar 2019 - Dec 2021",
+      "logoInitials": "CS",
+      "logoTone": "light",
+      "achievements": [
+        "Built a real-time observability dashboard rendering 15,000 data points per second at a steady 60 FPS.",
+        "Cut cloud infrastructure cost by $95k annually by moving monolithic workers to serverless tasks.",
+        "Standardised a shared design system and component library, shortening feature delivery by 35%."
+      ],
+      "technologies": "React, TypeScript, Python, FastAPI, Docker, Redis, AWS ECS"
+    },
+    {
+      "id": "exp-3",
+      "company": "Innovate Labs",
+      "role": "Software Engineer",
+      "period": "Jun 2017 - Feb 2019",
+      "logoInitials": "IL",
+      "logoTone": "dark",
+      "achievements": [
+        "Delivered enterprise SSO (OAuth 2.0 / SAML) onboarding 45+ large enterprise customers.",
+        "Raised automated test coverage from 42% to 91% with Jest and Cypress regression suites.",
+        "Shaved 1.8s off Time to Interactive through code splitting and Brotli asset delivery."
+      ],
+      "technologies": "JavaScript, React, Node.js, Express, MongoDB, Jest, Git"
+    }
+  ],
+  "contact": {
+    "title": "Contact Form",
+    "fields": [
+      {
+        "name": "name",
+        "placeholder": "Name",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "email",
+        "placeholder": "Email",
+        "type": "email",
+        "required": true
+      },
+      {
+        "name": "subject",
+        "placeholder": "Subject",
+        "type": "text",
+        "required": false
+      },
+      {
+        "name": "message",
+        "placeholder": "Message",
+        "type": "textarea",
+        "required": true
+      }
+    ],
+    "submitLabel": "Send",
+    "ctaHeadline": "Let’s collaborate or chat!"
+  },
+  "footer": {
+    "copyright": "© 2026 samuelchen.dev"
+  }
+}
