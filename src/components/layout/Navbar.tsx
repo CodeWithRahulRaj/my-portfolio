@@ -96,7 +96,7 @@ export const Navbar: React.FC<NavbarProps> = ({ navLinks, navActions }) => {
       </Container>
 
       {open && (
-        <nav id="mobile-nav" className="border-t border-line bg-nav md:hidden">
+        <nav id="mobile-nav" className="absolute left-0 right-0 top-full border-b border-t border-line bg-nav shadow-lg md:hidden">
           <Container className="flex flex-col py-2">
             {navLinks.map((link) => (
               <Link
